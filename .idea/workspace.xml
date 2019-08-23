@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5700f6d3-20fc-446c-a142-cabf54a2dd57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Bai23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baitapthayson/Bai25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baitapthayson/Bai25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baitapthayson/Bai25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitapthayson/Bai25.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai28.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai21.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai23.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -71,6 +74,11 @@
         <option value="$PROJECT_DIR$/src/baitapthayson/Bai25.java" />
         <option value="$PROJECT_DIR$/src/baitapthayson/Bai27.java" />
         <option value="$PROJECT_DIR$/src/baitapthayson/Bai28.java" />
+        <option value="$PROJECT_DIR$/src/baitapthayson/Bai17.java" />
+        <option value="$PROJECT_DIR$/src/baitapthayson/Bai19.java" />
+        <option value="$PROJECT_DIR$/src/baitapthayson/Bai20.java" />
+        <option value="$PROJECT_DIR$/src/baitapthayson/Bai21.java" />
+        <option value="$PROJECT_DIR$/src/baitapthayson/Bai23.java" />
       </list>
     </option>
   </component>
@@ -88,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +118,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -130,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bai17">
+  <component name="RunManager" selected="Application.Bai23">
     <configuration name="Bai17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai17" />
       <module name="JavaTutorial" />
@@ -144,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai25" />
+    <configuration name="Bai19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai19" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai27" />
+    <configuration name="Bai20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai20" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
@@ -170,8 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai28" />
+    <configuration name="Bai21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai21" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai34" />
+    <configuration name="Bai23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitapthayson.Bai23" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
@@ -198,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai23" />
+        <item itemvalue="Application.Bai21" />
+        <item itemvalue="Application.Bai20" />
+        <item itemvalue="Application.Bai19" />
         <item itemvalue="Application.Bai17" />
-        <item itemvalue="Application.Bai28" />
-        <item itemvalue="Application.Bai27" />
-        <item itemvalue="Application.Bai25" />
-        <item itemvalue="Application.Bai34" />
       </list>
     </recent_temporary>
   </component>
@@ -221,9 +229,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15167785" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15369128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +239,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3045326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baitapthayson/bai16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baitapthayson/bai12.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -368,17 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai34.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai35.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -400,13 +389,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baitapthayson/bai16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai28.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai34.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
