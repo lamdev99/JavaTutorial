@@ -10,9 +10,8 @@ public class Bai21 {
         int n = sc.nextInt();
         int[] a =  new int[n];
         Random rd = new Random();
-        a[0] = 1;a[1] = 2;a[2] = 1; a[3] = 1; a[4] = 2;
         for(int i = 0; i < n; i++){
-        //    a[i]  = ;
+            a[i]  = rd.nextInt(900)+100;
             set.add(a[i]);
         }
         Arrays.sort(a);
