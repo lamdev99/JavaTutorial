@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5700f6d3-20fc-446c-a142-cabf54a2dd57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thayson2/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thayson2/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thayson2/Bai3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thayson2/Bai4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baithaysonpart2/bai12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/help/DanhSach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/help/PTGT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/help/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baitapthayson/Bai28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baitapthayson/Bai28.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/baitapthayson/Bai21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitapthayson/Bai21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baitapthayson/Bai28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitapthayson/Bai28.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai21.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="260">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -773,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baitapthayson/Bai21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="260">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
