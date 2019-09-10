@@ -1,11 +1,13 @@
 package baithaysonpart2;
 
+import java.util.Scanner;
+
 class StackOfIntegers {
     private int[] elements;
     private int size;
 
     public StackOfIntegers() {
-        size = -1;
+        size = -1;elements = new int[16];
     }
 
     public StackOfIntegers(int capacity) {
@@ -30,9 +32,7 @@ class StackOfIntegers {
     }
 
     public int peak() {
-        //if(!isFull())
-            return elements[size];
-        //return 0;
+        return elements[size];
     }
 
     public void push(int n) {
@@ -54,16 +54,23 @@ class StackOfIntegers {
 
 public class bai4 {
     public static void main(String[] args) {
-        StackOfIntegers stackOfIntegers = new StackOfIntegers(3);
-        System.out.println(stackOfIntegers.isEmpty());
-        for(int i = 1; i < 4; i++){
-            stackOfIntegers.push(i);
-            System.out.println(stackOfIntegers.isFull());
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        StackOfIntegers stackOfIntegers = new StackOfIntegers();
+        int i = 2;
+        //System.out.println(1);
+        while(n>1){
+            if(n%i==0){
+                stackOfIntegers.push(i);
+               // System.out.print(i+" ");
+                n/=i;
+            }
+            else{
+                i++;
+            }
         }
-        System.out.println(stackOfIntegers.peak());
-        stackOfIntegers.pop();
-        while (!stackOfIntegers.isEmpty()){
-            System.out.println(stackOfIntegers.peak());
+        while(!stackOfIntegers.isEmpty()) {
+            System.out.print(stackOfIntegers.peak()+" ");
             stackOfIntegers.pop();
         }
     }

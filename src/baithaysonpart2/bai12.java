@@ -5,23 +5,19 @@ import java.util.Scanner;
 class Matrix {
     private float a[][];
     Scanner sc;
+    public void input(){
+        for(int i = 0; i <= a.length; i++){
+            for(int j = 0; j <= a[i].length; j++){
 
-    public Matrix() {
-        a = new float[4][4];
-        for (int i = 1; i <= 3; i++) {
-            for (int j = 1; j <= 3; j++) {
-                a[i][j] = sc.nextFloat();
             }
         }
+    }
+    public Matrix() {
+        a = new float[4][4];
     }
 
     public Matrix(int row, int col) {
         a = new float[row + 1][col + 1];
-        for (int i = 1; i <= row; i++) {
-            for (int j = 1; j <= col; j++) {
-                a[i][j] = sc.nextFloat();
-            }
-        }
     }
 
     public Matrix add(Matrix m) {
