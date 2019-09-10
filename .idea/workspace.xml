@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5700f6d3-20fc-446c-a142-cabf54a2dd57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dell.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_5_1_40.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ExceptionEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InOutJava/FileObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InOutJava/Nguoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InOutJava/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InOutJava/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/DatabaseMetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/PreparedStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/ResultSetMetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/bai22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baithaysonpart2/SoPhuc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baithaysonpart2/bai10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baithaysonpart2/bai6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaTutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaTutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/JDBC/testdb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/JDBC/testdb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baitapthayson/Bai21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baitapthayson/Bai21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/Matrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/MyPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/MyPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/StackOfIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/StackOfIntegers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/baithaysonpart2/bai5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JDBC/testdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/testdb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baithaysonpart2/bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baithaysonpart2/bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baithaysonpart2/bai12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baithaysonpart2/bai12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baithaysonpart2/bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baithaysonpart2/bai4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baithaysonpart2/bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baithaysonpart2/bai5.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JDBC/testdb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+            <state relative-caret-position="200">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/Exception/ExceptionEx.java" />
         <option value="$PROJECT_DIR$/src/JDBC/PreparedStatement.java" />
         <option value="$PROJECT_DIR$/src/JDBC/ResultSetMetaData.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/testdb.java" />
         <option value="$PROJECT_DIR$/src/JDBC/DatabaseMetaData.java" />
+        <option value="$PROJECT_DIR$/src/JDBC/testdb.java" />
       </list>
     </option>
   </component>
@@ -840,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JDBC/testdb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        <state relative-caret-position="200">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

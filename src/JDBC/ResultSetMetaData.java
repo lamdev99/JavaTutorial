@@ -8,13 +8,6 @@ public class ResultSetMetaData {
     private static String DB_URL = "jdbc:mysql://localhost:3306/t3h";
     private static String USER_NAME = "root";
     private static String PASSWORD = "68686868";
-
-    /**
-     * main
-     *
-     * @author viettuts.vn
-     * @param args
-     */
     public static void main(String args[]) {
 
         try {
