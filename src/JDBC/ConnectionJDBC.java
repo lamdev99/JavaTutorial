@@ -1,29 +1,23 @@
 package JDBC;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
-public class DatabaseMetaData {
-    private static String sqlSelectAll = "select * from student";
-    private static String sqlInsert = "insert into student values(?,?,?)";
+public class ConnectionJDBC {
     private static String DB_URL = "jdbc:mysql://localhost:3306/t3h";
     private static String USER_NAME = "root";
     private static String PASSWORD = "68686868";
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         try {
             // connnect to database 'testdb'
             Connection conn = getConnection(DB_URL, USER_NAME, PASSWORD);
-            java.sql.DatabaseMetaData databaseMetaData = conn.getMetaData();
-            System.out.println("Driver Name: " + databaseMetaData.getDriverName());
-            System.out.println("Driver Version: " + databaseMetaData.getDriverVersion());
-            System.out.println("Username: " + databaseMetaData.getUserName());
-            System.out.println("Database Product Name: " + databaseMetaData.getDatabaseProductName());
-            System.out.println("Database Product Version; " + databaseMetaData.getDatabaseProductVersion());
-
+            // close connection
             conn.close();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+
     }
 
     public static Connection getConnection(String dbURL, String userName,
@@ -40,4 +34,3 @@ public class DatabaseMetaData {
         return conn;
     }
 }
-

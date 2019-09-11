@@ -1,29 +1,34 @@
 package JDBC;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
-public class DatabaseMetaData {
-    private static String sqlSelectAll = "select * from student";
-    private static String sqlInsert = "insert into student values(?,?,?)";
+public class ResultSetEx {
     private static String DB_URL = "jdbc:mysql://localhost:3306/t3h";
     private static String USER_NAME = "root";
     private static String PASSWORD = "68686868";
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         try {
             // connnect to database 'testdb'
             Connection conn = getConnection(DB_URL, USER_NAME, PASSWORD);
-            java.sql.DatabaseMetaData databaseMetaData = conn.getMetaData();
-            System.out.println("Driver Name: " + databaseMetaData.getDriverName());
-            System.out.println("Driver Version: " + databaseMetaData.getDriverVersion());
-            System.out.println("Username: " + databaseMetaData.getUserName());
-            System.out.println("Database Product Name: " + databaseMetaData.getDatabaseProductName());
-            System.out.println("Database Product Version; " + databaseMetaData.getDatabaseProductVersion());
-
+            Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
+                    ResultSet.CONCUR_UPDATABLE);
+            ResultSet rs = stmt.executeQuery("Select * from nguoi");
+            //get data in 1 row
+//            rs.absolute(1);
+            System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
+            while (rs.next()) {
+                System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
+            }
+            // close connection
             conn.close();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+
     }
 
     public static Connection getConnection(String dbURL, String userName,
@@ -40,4 +45,3 @@ public class DatabaseMetaData {
         return conn;
     }
 }
-
