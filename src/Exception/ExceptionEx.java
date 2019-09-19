@@ -2,41 +2,39 @@ package Exception;
 
 import java.util.Scanner;
 
-class MyException extends  Exception{
-    private int ex;
 
-    public MyException(int ex) {
-        this.ex = ex;
+class StringEqualsNull extends  Exception{
+    public StringEqualsNull(String s){
+        super(s);
     }
-    public String toString(){
-        return "My exception "+ ex;
+}
+
+class ExceptionString{
+    public void StringEqualsNullEx(String s) throws StringEqualsNull{
+        if(s.length()==0)   throw new StringEqualsNull(s);
     }
 }
 
 public class ExceptionEx {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boolean check = true;
-        int n = -1;
-        while(check){
-            try{
-                System.out.print("Nhap so diem cua ban: ");
-                n = sc.nextInt();
-                nhapdiem(n);
-                //String.valueOf(n);
-                check = false;
-            } catch (MyException e){
-                System.out.println("Nhap sai");
-            }
+        boolean check = false;
+        System.out.println("Nhap vao ten cua ban");
+        while(check==false){
+            check = checkString();
         }
-        System.out.println("So diem cua ban la: "+n);
     }
-    public static void nhapdiem(int a) throws MyException{
-        if(a>10||a<0){
-            throw new MyException(a);
-        }
-        if(String.valueOf(a).toString().equals("\n")){
-            throw  new MyException(a);
+    public static boolean checkString(){
+        Scanner sc = new Scanner(System.in);
+        String s;
+        try {
+            s = sc.nextLine();
+            new ExceptionString().StringEqualsNullEx(s);
+            System.out.println("Your name is "+ s);
+            return true;
+        }catch (StringEqualsNull e){
+            System.out.println("Nhap lai ten cua ban");
+            return false;
         }
     }
 }

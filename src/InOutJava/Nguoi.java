@@ -1,6 +1,8 @@
 package InOutJava;
 
-public class Nguoi {
+import java.io.Serializable;
+
+public class Nguoi implements Serializable {
     private String name;
     private int age;
 

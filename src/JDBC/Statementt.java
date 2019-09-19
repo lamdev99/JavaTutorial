@@ -11,24 +11,15 @@ public class Statementt {
 
     public static void main(String[] args) {
         try {
-            // connnect to database 'testdb'
             Connection conn = getConnection(DB_URL, USER_NAME, PASSWORD);
-
-            //Tạo một đối tượng Statement được sử dụng để thực thi các câu truy vấn SQL.
             Statement statement = conn.createStatement();
-            //update statement
             statement.executeUpdate("UPDATE nguoi set name = 'newupdate' where id = 1");
-            //insert statement
-            statement.executeUpdate("insert into nguoi(name,age) " +
-                    "values('lamkzNEU',20)");
-            //create Table
+            statement.executeUpdate("insert into nguoi(name,age) " + "values('lamkzNEU',20)");
             statement.executeUpdate("create table nguoi" +
                     "(id integer auto_increment primary key, " +
                     "name varchar(255)," +
                     "age integer not null)");
-            //delete statement
             statement.executeUpdate("delete from nguoi where id = 1");
-            // close connection
             conn.close();
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -42,7 +33,6 @@ public class Statementt {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(dbURL, userName, password);
-            //System.out.println("connect successfully!");
         } catch (Exception ex) {
             System.out.println("connect failure!");
             ex.printStackTrace();

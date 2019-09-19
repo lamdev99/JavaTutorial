@@ -3,15 +3,12 @@ package JDBC;
 import java.sql.*;
 
 public class DatabaseMetaData {
-    private static String sqlSelectAll = "select * from student";
-    private static String sqlInsert = "insert into student values(?,?,?)";
     private static String DB_URL = "jdbc:mysql://localhost:3306/t3h";
     private static String USER_NAME = "root";
     private static String PASSWORD = "68686868";
 
     public static void main(String args[]) {
         try {
-            // connnect to database 'testdb'
             Connection conn = getConnection(DB_URL, USER_NAME, PASSWORD);
             java.sql.DatabaseMetaData databaseMetaData = conn.getMetaData();
             System.out.println("Driver Name: " + databaseMetaData.getDriverName());
@@ -19,7 +16,6 @@ public class DatabaseMetaData {
             System.out.println("Username: " + databaseMetaData.getUserName());
             System.out.println("Database Product Name: " + databaseMetaData.getDatabaseProductName());
             System.out.println("Database Product Version; " + databaseMetaData.getDatabaseProductVersion());
-
             conn.close();
         } catch (Exception ex) {
             ex.printStackTrace();

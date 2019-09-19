@@ -5,15 +5,11 @@ import java.sql.PreparedStatement;
 
 public class ResultSetMetaData {
     private static String sqlSelectAll = "select * from student";
-    private static String sqlInsert = "insert into student values(?,?,?)";
     private static String DB_URL = "jdbc:mysql://localhost:3306/t3h";
     private static String USER_NAME = "root";
     private static String PASSWORD = "68686868";
-
     public static void main(String args[]) {
-
         try {
-            // connnect to database 'testdb'
             Connection conn = getConnection(DB_URL, USER_NAME, PASSWORD);
             PreparedStatement preparedStatement;
             preparedStatement = conn.prepareStatement(sqlSelectAll);

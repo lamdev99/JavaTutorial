@@ -12,18 +12,15 @@ public class ResultSetEx {
 
     public static void main(String[] args) {
         try {
-            // connnect to database 'testdb'
             Connection conn = getConnection(DB_URL, USER_NAME, PASSWORD);
             Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
                     ResultSet.CONCUR_UPDATABLE);
             ResultSet rs = stmt.executeQuery("Select * from nguoi");
-            //get data in 1 row
-//            rs.absolute(1);
+            rs.absolute(1);
             System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
             while (rs.next()) {
                 System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
             }
-            // close connection
             conn.close();
         } catch (Exception ex) {
             ex.printStackTrace();

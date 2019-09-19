@@ -19,7 +19,6 @@ public class ConnectionJDBC {
         }
 
     }
-
     public static Connection getConnection(String dbURL, String userName,
                                            String password) {
         Connection conn = null;
