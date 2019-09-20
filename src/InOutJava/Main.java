@@ -71,6 +71,7 @@ public class Main {
             choose = sc.nextInt();
             switch (choose){
                 case 1:{
+                    InputSV();
                     list=getSV("SV.INP");
                     break;
                 }
@@ -89,9 +90,8 @@ public class Main {
                 case 4:{
                     SortByDtbAndName(list);
                     newList = getSV("XEPLOAI.OUT");
-
                     for (SinhVien sv: newList)
-                        System.out.println(sv);
+                        System.out.println(sv.getXepLoai()+"-"+sv);
                     break;
                 }
                 default: break;
@@ -100,59 +100,22 @@ public class Main {
         }
     }
     public static void SortByDtbAndName(List<SinhVien> list) {
-        for (SinhVien sv : list) {
-            if (sv.getDtb() > 8)
-                sv.setXepLoai("Gioi");
-            else if (sv.getDtb() > 7)
-                sv.setXepLoai("Kha");
-            else if (sv.getDtb() > 5)
-                sv.setXepLoai("TB");
+        Collections.sort(list,new SortByName());
+        Collections.sort(list, new SortByDtb());
+        for(SinhVien sv: list){
+            if(sv.getDtb()>8)   sv.setXepLoai("Gioi");
+            else if(sv.getDtb()>7) sv.setXepLoai("Kha");
+            else if(sv.getDtb()>5)  sv.setXepLoai("Trung Binh");
             else sv.setXepLoai("Yeu");
         }
-        List<SinhVien> arrayKq = new ArrayList<>();
-        List<SinhVien> newList = new ArrayList<>();
-        String xl = "Gioi";
-        for (SinhVien sv : list) {
-            if (sv.getXepLoai().equals(xl)) {
-                newList.add(sv);
-            } else {
-                Collections.sort(newList, new SortByName());
-                for (SinhVien s : newList)
-                    arrayKq.add(s);
-                newList.clear();
-                newList.add(sv);
-            }
-        }
-        if (!newList.isEmpty()) {
-            for (SinhVien s : newList)
-                arrayKq.add(s);
-        }
-        OutputSV(arrayKq, "XEPLOAI.OUT");
+        OutputSV(list, "XEPLOAI.OUT");
     }
 
     public static void SortByClassAndDtb(List<SinhVien> list) {
-        SinhVien sv = (SinhVien) list.get(0);
-        String lop = sv.getLop();
-        List<SinhVien> arrayKq = new ArrayList<>();
-        List<SinhVien> newList = new ArrayList<>();
-        for (SinhVien sinhVien : list) {
-            if (sinhVien.getLop().equals(lop)) {
-                newList.add(sinhVien);
-            } else {
-                Collections.sort(newList, new SortByDtb());
-                for (SinhVien s : newList)
-                    arrayKq.add(s);
-                newList.clear();
-                lop = sinhVien.getLop();
-                newList.add(sinhVien);
-            }
-        }
-        if (!newList.isEmpty()) {
-            Collections.sort(newList, new SortByDtb());
-            for (SinhVien s : newList)
-                arrayKq.add(s);
-        }
-        OutputSV(arrayKq, "SX.OUT");
+        Collections.sort(list, new SortByDtb());
+        Collections.sort(list,new SortByClass());
+
+        OutputSV(list, "SX.OUT");
     }
 
     public static boolean TestException(SinhVien sv) {
@@ -189,7 +152,6 @@ public class Main {
                     cont = false;
             }
         } catch (Exception e) {
-            //System.out.println(e.printStackTrace());
         }
         return objectsList;
     }
@@ -198,26 +160,30 @@ public class Main {
         ObjectOutputStream oos = null;
         try {
             oos = new ObjectOutputStream(new FileOutputStream(path));
-            for (SinhVien sv : list)
+            for (SinhVien sv : list){
                 oos.writeObject(sv);
+            }
             oos.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-//    public static void InputSV() {
-//        ObjectOutputStream oos = null;
-//        try {
-//            oos = new ObjectOutputStream(new FileOutputStream("SV.INP"));
-//            oos.writeObject(new SinhVien(1234, "Lam", "D17CQCN06", 6));
-//            oos.writeObject(new SinhVien(1234, "Nam", "D17CQCN06", 9));
-//            oos.writeObject(new SinhVien(1234, "Thai", "A17CQCN06", 9));
-//            oos.close();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
+    public static void InputSV() {
+        ObjectOutputStream oos = null;
+        try {
+            oos = new ObjectOutputStream(new FileOutputStream("SV.INP"));
+            oos.writeObject(new SinhVien(1234, "Aam", "D", 6));
+            oos.writeObject(new SinhVien(1234, "Bam", "D", 9.3));
+            oos.writeObject(new SinhVien(1234, "Cha", "D", 9.2));
+            oos.writeObject(new SinhVien(1235,"Fai","D",7));
+            oos.writeObject(new SinhVien(1235,"Eai","D",3));
+            oos.writeObject(new SinhVien(1235,"Dai","D",9.4));
+            oos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     private static class ExUsage extends Exception {
         public ExUsage(String me) {
@@ -251,15 +217,13 @@ class SortByClass implements Comparator<SinhVien> {
 }
 
 class SortByDtb implements Comparator<SinhVien> {
-
     @Override
     public int compare(SinhVien o1, SinhVien o2) {
-        return (int) (o2.getDtb() - o1.getDtb());
+        return o1.getDtb()>o2.getDtb() ? -1 : 1;
     }
 }
 
 class SortByName implements Comparator<SinhVien> {
-
     @Override
     public int compare(SinhVien o1, SinhVien o2) {
         return o1.getTen().compareTo(o2.getTen());
