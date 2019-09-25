@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5700f6d3-20fc-446c-a142-cabf54a2dd57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InOutJava/IOString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LTHDT/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LTHDT/PanelSach.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LTHDT/PanelSach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LTHDT/Sach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baitapthayson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SACH.DAT" beforeDir="false" afterPath="$PROJECT_DIR$/SACH.DAT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SV.INP" beforeDir="false" afterPath="$PROJECT_DIR$/SV.INP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SX.OUT" beforeDir="false" afterPath="$PROJECT_DIR$/SX.OUT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XEPLOAI.OUT" beforeDir="false" afterPath="$PROJECT_DIR$/XEPLOAI.OUT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/BaiCuoiKi/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/BaiCuoiKi/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/Main$ExUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/Main$ExUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/SortByClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/SortByClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/SortByDtb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/SortByDtb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/SortByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/InOutJava/SortByName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/BanDoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/BanDoc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/ExceptionString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/ExceptionString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/ObjectsOutputStreamEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/ObjectsOutputStreamEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/PanelSach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/PanelSach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/Sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/Sach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/StringEqualsNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/StringEqualsNull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/StringToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/TestCuoiKi/StringToInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InOutJava/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InOutJava/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCuoiKi/BanDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCuoiKi/BanDoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCuoiKi/ObjectsOutputStreamEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCuoiKi/ObjectsOutputStreamEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCuoiKi/PanelSach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCuoiKi/PanelSach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCuoiKi/Sach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCuoiKi/Sach.java" afterDir="false" />
-    </list>
+    <list default="true" id="5700f6d3-20fc-446c-a142-cabf54a2dd57" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/baitapthayson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="e#3669#3670#0" expanded="true" />
                 <element signature="e#3728#3729#0" expanded="true" />
@@ -193,12 +162,6 @@
               <item name="JavaTutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="baitapthayson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +346,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -391,10 +353,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.15369128" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.15369128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32707775" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11048159" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04249292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -870,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baitapthayson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        <state relative-caret-position="198">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="e#3669#3670#0" expanded="true" />
             <element signature="e#3728#3729#0" expanded="true" />
