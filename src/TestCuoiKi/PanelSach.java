@@ -1,14 +1,17 @@
 package TestCuoiKi;
 
 
+import javax.jws.Oneway;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import javax.xml.soap.SAAJMetaFactory;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.ObjectOutputStream;
+import java.util.List;
 
 class StringEqualsNull extends Exception{
     public StringEqualsNull(String s){
@@ -31,7 +34,7 @@ class ExceptionString{
 class PanelSach implements InterfaceDo, ActionListener, MouseListener {
     JPanel jPanelSach;
     Object[] col = {"ID", "Name Book", "Author", "Object", "Year", "Quantity"};
-    Object[] row;
+    Object[]  row;
     JTextArea tfName, tfAuthor, tfObject, tfYear, tfQ;
     JLabel lbName,lbAuthor,lbObject,lbYear,lbQ;
     JButton btnAdd;
@@ -39,7 +42,6 @@ class PanelSach implements InterfaceDo, ActionListener, MouseListener {
     DefaultTableModel model;
     JTable jTable;
     Font font;
-
     @Override
     public JPanel getPanel() {
         return null;
@@ -161,7 +163,6 @@ class PanelSach implements InterfaceDo, ActionListener, MouseListener {
             System.out.println(row[4].toString());
             year = Integer.parseInt(row[4].toString());
         } catch (NumberFormatException e) {
-            System.out.println(1);
             tfYear.requestFocus();
             JOptionPane.showMessageDialog(jPanelSach,"Please " +
                     "fill number ",null,JOptionPane.WARNING_MESSAGE);
@@ -173,7 +174,6 @@ class PanelSach implements InterfaceDo, ActionListener, MouseListener {
             System.out.println(row[5].toString());
             quantity = Integer.parseInt(row[5].toString());
         } catch (NumberFormatException e) {
-            System.out.println(1);
             tfYear.requestFocus();
             JOptionPane.showMessageDialog(jPanelSach,"Please " +
                     "fill quantity ",null,JOptionPane.WARNING_MESSAGE);
@@ -181,15 +181,27 @@ class PanelSach implements InterfaceDo, ActionListener, MouseListener {
             //canAdd = false;
         }
         Sach sach = new Sach(year,quantity,row[1].toString(),row[2].toString(),row[3].toString());
+        int n = model.getRowCount();
+        for(int i = 0; i < n; i++)
+            model.removeRow(0);
         addToFile(sach);
-        model.addRow(row);
-
         return true;
+    }
+    public void addToJTable(List<Sach> myList){
+        for(Sach sa: myList){
+            row[0] = String.valueOf(sa.getIdBook());
+            row[1] = sa.getNameBook();
+            row[2] = sa.getAuthorName();
+            row[3] = sa.getObject();
+            row[4] = String.valueOf(sa.getYear());
+            row[5] = String.valueOf(sa.getQuantity());
+            model.addRow(row);
+        }
     }
     public void addToFile(Sach sach){
         ObjectsOutputStreamEx oos = new ObjectsOutputStreamEx(sach);
-        oos.add();
-        oos.show();
+        List<Sach> myList = oos.getListAll();
+        addToJTable(myList);
     }
     @Override
     public void actionPerformed(ActionEvent e) {

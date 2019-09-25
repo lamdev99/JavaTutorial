@@ -1,17 +1,23 @@
 package TestCuoiKi;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 class ObjectsOutputStreamEx {
-    private Sach sach;
+    private int maSach = 0;
     private List<Sach> listAll;
     public ObjectsOutputStreamEx(Sach sach) {
         listAll = new ArrayList<>();
+        getSach();
+        if(maSach==0) maSach = 10000;
+        sach.setIdBook(maSach+1);
         listAll.add(sach);
-        this.sach = sach;
-
+      //  new PanelSach().addToJTable(listAll);
+        add();
+    //    show();
+    }
+    public List<Sach> getListAll(){
+        return listAll;
     }
     public void add(){
         ObjectOutputStream oos = null;
@@ -20,27 +26,32 @@ class ObjectsOutputStreamEx {
             for(Sach sa: listAll)
                 oos.writeObject(sa);
             oos.close();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    public void show(){
-        ObjectInputStream ois = null;
+    public void getSach(){
+        FileInputStream fis = null;
         try {
-            ois = new ObjectInputStream(new FileInputStream("SACH.DAT"));
-            try {
-                //while(ois.readBoolean()){
-                    Sach sa = (Sach) ois.readObject();
-                    //listAll.add(sa);
-
-//                for(Sach sa: listAll) System.out.println(sa);
-                ois.close();
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-        } catch (IOException e) {
+            fis = new FileInputStream("SACH.DAT");
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+        boolean cont = true;
+        try {
+            ObjectInputStream ois = new ObjectInputStream(fis);
+            while (cont){
+                Sach sa = (Sach) ois.readObject();
+                if(sa!=null){
+                    listAll.add(sa);
+                    maSach = sa.getIdBook();
+                }
+                else cont = false;
+            }
+
+        } catch (Exception e) {
+            //
+        }
     }
+
 }

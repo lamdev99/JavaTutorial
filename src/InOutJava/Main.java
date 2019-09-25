@@ -173,12 +173,13 @@ public class Main {
         ObjectOutputStream oos = null;
         try {
             oos = new ObjectOutputStream(new FileOutputStream("SV.INP"));
-            oos.writeObject(new SinhVien(1234, "Aam", "D", 6));
-            oos.writeObject(new SinhVien(1234, "Bam", "D", 9.3));
-            oos.writeObject(new SinhVien(1234, "Cha", "D", 9.2));
-            oos.writeObject(new SinhVien(1235,"Fai","D",7));
-            oos.writeObject(new SinhVien(1235,"Eai","D",3));
-            oos.writeObject(new SinhVien(1235,"Dai","D",9.4));
+            oos.writeObject(new SinhVien(1234, "Aam", "CN01", 6));
+            oos.writeObject(new SinhVien(1235, "Bam", "CN02", 9.3));
+            oos.writeObject(new SinhVien(1236, "Cha", "CN01", 9.2));
+            oos.writeObject(new SinhVien(1237,"Fai","CN02",7));
+            oos.writeObject(new SinhVien(1238,"Eai","CN01",3));
+            oos.writeObject(new SinhVien(1239,"Dai","CN02",9.4));
+            oos.writeObject(new SinhVien(1240,"Pai","CN03",9.4));
             oos.close();
         } catch (IOException e) {
             e.printStackTrace();
