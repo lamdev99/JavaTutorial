@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5700f6d3-20fc-446c-a142-cabf54a2dd57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Doulingo/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doulingo/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doulingo/ScreenPratice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Help/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Help/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Help/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Help/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuanLiNhaDat/Oto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuanLiNhaDat/PTGT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuanLiNhaDat/QLPT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuanLiNhaDat/TinhGia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuanLiNhaDat/XeTai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Bai7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/DoiManhinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Mainclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/StillClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/UISach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/UIex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/testJva.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaRegex/IntIPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaRegex/IntIPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaRegex/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaRegex/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaRegex/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaRegex/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/QuanLiNhaDat/CompareSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/QuanLiNhaDat/GiaoDichDat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/QuanLiNhaDat/SinhVien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/QuanLiNhaDat/bac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/javaRegex/IntIPhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/javaRegex/IntIPhoneNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/javaRegex/PhoneBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/javaRegex/PhoneBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTutorial/javaRegex/tutorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTutorial/javaRegex/tutorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuanLiNhaDat/GiaoDichDat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuanLiNhaDat/bac.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaRegex/tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaRegex/tutorial.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,76 +49,53 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaRegex/PhoneNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/UI/Mainclass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="162">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/Bai7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaRegex/IntIPhoneNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/Doulingo/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="550">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaRegex/PhoneBook.java">
+        <entry file="file://$PROJECT_DIR$/src/UI/Bai2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+            <state relative-caret-position="900">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding>
-                <element signature="e#2742#2743#0" expanded="true" />
-                <element signature="e#2782#2783#0" expanded="true" />
-                <element signature="e#2935#2936#0" expanded="true" />
-                <element signature="e#2968#2969#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="863" column="18" selection-start-line="863" selection-start-column="18" selection-end-line="863" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaRegex/tutorial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -98,6 +105,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -108,31 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baithaysonpart2/bai1.java" />
-        <option value="$PROJECT_DIR$/src/baithaysonpart2/bai12.java" />
-        <option value="$PROJECT_DIR$/src/InOutJava/Storage.java" />
-        <option value="$PROJECT_DIR$/src/Thayson2/B1_Tay.java" />
-        <option value="$PROJECT_DIR$/src/InOutJava/test.java" />
-        <option value="$PROJECT_DIR$/src/Exception/Exception.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/testdb.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/Statement.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/ResultSet.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/PreparedStatement.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/PreparedStatementt.java" />
-        <option value="$PROJECT_DIR$/src/baithaysonpart2/Bai14.java" />
-        <option value="$PROJECT_DIR$/src/baithaysonpart2/SoPhuc.java" />
-        <option value="$PROJECT_DIR$/src/BaiCuoiKi/Jbutton.java" />
-        <option value="$PROJECT_DIR$/src/TestCuoiKi/InterfaceDo.java" />
-        <option value="$PROJECT_DIR$/src/BaiCuoiKi/JtabbedPane.java" />
-        <option value="$PROJECT_DIR$/src/BaiCuoiKi/TableSwing.java" />
-        <option value="$PROJECT_DIR$/src/TestCuoiKi/AllFrame.java" />
-        <option value="$PROJECT_DIR$/src/QuanLiNhaDat/bac.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/ConnectionJDBC.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/Statementt.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/ResultSetEx.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/ResultSetMetaData.java" />
-        <option value="$PROJECT_DIR$/src/JDBC/DatabaseMetaData.java" />
-        <option value="$PROJECT_DIR$/src/Exception/ExceptionEx.java" />
         <option value="$PROJECT_DIR$/src/InOutJava/Nguoi.java" />
         <option value="$PROJECT_DIR$/src/InOutJava/FileObjects.java" />
         <option value="$PROJECT_DIR$/src/InOutJava/InOutArrayList.java" />
@@ -156,9 +139,34 @@
         <option value="$PROJECT_DIR$/src/LTHDT/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/baitapthayson/Main.java" />
         <option value="$PROJECT_DIR$/src/javaRegex/PhoneNumber.java" />
-        <option value="$PROJECT_DIR$/src/javaRegex/tutorial.java" />
         <option value="$PROJECT_DIR$/src/javaRegex/PhoneBook.java" />
         <option value="$PROJECT_DIR$/src/javaRegex/IntIPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/javaRegex/tutorial.java" />
+        <option value="$PROJECT_DIR$/src/QuanLiNhaDat/PTGT.java" />
+        <option value="$PROJECT_DIR$/src/QuanLiNhaDat/TinhGia.java" />
+        <option value="$PROJECT_DIR$/src/QuanLiNhaDat/Oto.java" />
+        <option value="$PROJECT_DIR$/src/QuanLiNhaDat/XeTai.java" />
+        <option value="$PROJECT_DIR$/src/QuanLiNhaDat/QLPT.java" />
+        <option value="$PROJECT_DIR$/src/UI/test.java" />
+        <option value="$PROJECT_DIR$/src/UI/DoiManhinh.java" />
+        <option value="$PROJECT_DIR$/src/UI/UIex.java" />
+        <option value="$PROJECT_DIR$/src/UI/StillClock.java" />
+        <option value="$PROJECT_DIR$/src/UI/testJva.java" />
+        <option value="$PROJECT_DIR$/src/UI/Bai2.java" />
+        <option value="$PROJECT_DIR$/src/UI/Bai3.java" />
+        <option value="$PROJECT_DIR$/src/UI/Sach.java" />
+        <option value="$PROJECT_DIR$/src/UI/aaa.java" />
+        <option value="$PROJECT_DIR$/src/UI/UISach.java" />
+        <option value="$PROJECT_DIR$/src/Help/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Help/Student.java" />
+        <option value="$PROJECT_DIR$/src/Help/Person.java" />
+        <option value="$PROJECT_DIR$/src/Help/Main.java" />
+        <option value="$PROJECT_DIR$/src/UI/Login.java" />
+        <option value="$PROJECT_DIR$/src/Doulingo/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/Doulingo/Login.java" />
+        <option value="$PROJECT_DIR$/src/Doulingo/ScreenPratice.java" />
+        <option value="$PROJECT_DIR$/src/UI/Mainclass.java" />
+        <option value="$PROJECT_DIR$/src/UI/Bai7.java" />
       </list>
     </option>
   </component>
@@ -176,7 +184,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,12 +200,13 @@
               <item name="JavaTutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javaRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,13 +245,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhoneBook">
-    <configuration name="IOString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InOutJava.IOString" />
+  <component name="RunManager" selected="Application.MainFrame">
+    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UI.Bai2" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InOutJava.*" />
+          <option name="PATTERN" value="UI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitapthayson.Main" />
+    <configuration name="Bai7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UI.Bai7" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitapthayson.*" />
+          <option name="PATTERN" value="UI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,11 +273,11 @@
       </method>
     </configuration>
     <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LTHDT.MainFrame" />
+      <option name="MAIN_CLASS_NAME" value="Doulingo.MainFrame" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LTHDT.*" />
+          <option name="PATTERN" value="Doulingo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaRegex.PhoneBook" />
+    <configuration name="Mainclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UI.Mainclass" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaRegex.*" />
+          <option name="PATTERN" value="UI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tutorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaRegex.tutorial" />
+    <configuration name="ScreenPratice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Doulingo.ScreenPratice" />
       <module name="JavaTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaRegex.*" />
+          <option name="PATTERN" value="Doulingo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhoneBook" />
-        <item itemvalue="Application.tutorial" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainFrame" />
-        <item itemvalue="Application.IOString" />
+        <item itemvalue="Application.Bai7" />
+        <item itemvalue="Application.Bai2" />
+        <item itemvalue="Application.Mainclass" />
+        <item itemvalue="Application.ScreenPratice" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +344,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -345,15 +353,15 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.15771812" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17114094" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32707775" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.08640227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17988668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32719547" />
@@ -373,18 +381,18 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14966443" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16375838" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32707775" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2533512" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32707775" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3371105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32841823" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -400,194 +408,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JDBC/testdb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baithaysonpart2/SoPhuc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baithaysonpart2/Bai14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCuoiKi.java" />
-    <entry file="file://$PROJECT_DIR$/src/BaiCuoiKi/JtabbedPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaiCuoiKi/Jbutton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SACH.txt" />
-    <entry file="file://$PROJECT_DIR$/src/QuanLiNhaDat/bac.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/ConnectionJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/DatabaseMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/Statementt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/PreparedStatementt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/ResultSetEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/ResultSetMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InOutJava/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InOutJava/InOutArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exception/ScoreEx.java" />
-    <entry file="file://$PROJECT_DIR$/src/InOutJava/Nguoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objectarray.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="71" lean-forward="true" selection-start-column="71" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InOutJava/ExTen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exception/TrainingEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InOutJava/BinaryFileIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exception/ExceptionEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InOutJava/FileObjects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -788,36 +608,29 @@
     <entry file="file://$PROJECT_DIR$/src/LTHDT/PanelSach.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaRegex/PhoneNumbẻ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaRegex/PhoneNumbẻ.java" />
     <entry file="file://$PROJECT_DIR$/src/javaRegex/PhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="414">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaRegex/tutorial.java">
+    <entry file="file://$PROJECT_DIR$/src/javaRegex/IntIPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaRegex/PhoneBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -828,32 +641,288 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaRegex/PhoneBook.java">
+    <entry file="file://$PROJECT_DIR$/src/javaRegex/tutorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuanLiNhaDat/PTGT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
           <folding>
-            <element signature="e#2742#2743#0" expanded="true" />
-            <element signature="e#2782#2783#0" expanded="true" />
-            <element signature="e#2935#2936#0" expanded="true" />
-            <element signature="e#2968#2969#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaRegex/IntIPhoneNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/QuanLiNhaDat/Oto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="198">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuanLiNhaDat/XeTai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuanLiNhaDat/QLPT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuanLiNhaDat/TinhGia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/DoiManhinh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StillClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/aaa.java" />
+    <entry file="file://$PROJECT_DIR$/src/UI/Sach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Help/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Help/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Help/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Help/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="8" column="17" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#77#78#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/UIex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Bai3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/testJva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/UISach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Doulingo/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Doulingo/ScreenPratice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/aâ.java" />
+    <entry file="file://$PROJECT_DIR$/src/UI/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Mainclass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Bai7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Bai2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Doulingo/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
       </provider>

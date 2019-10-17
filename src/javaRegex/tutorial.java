@@ -10,7 +10,7 @@ public class tutorial {
         while(cont){
             System.out.println("Nhap string:");
             s = sc.nextLine();
-            if(s.matches("^0\\d{2,3}$")) break;
+            if(s.matches("^[a-z]{1}\\d{4}$")) break;
         }
     }
 }
